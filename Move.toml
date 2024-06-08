@@ -1,0 +1,9 @@
+[package]
+name = "car_registration_system"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+car_registration_system = "0x0"
